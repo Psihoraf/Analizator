@@ -1,6 +1,6 @@
 from fastapi import APIRouter, BackgroundTasks
 from fastapi import UploadFile
-from src.Exceptions.exceptions import check_file_extension
+from src.exceptions.exceptions import check_file_extension
 from src.core.wordStatisticsProcessor import WordStatisticsProcessor
 router = APIRouter(prefix="/report",tags= ["Отчет"])
 

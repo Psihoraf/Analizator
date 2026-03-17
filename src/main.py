@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request
 from src.api.report import router as report_router
-from src.Exceptions.exceptions import EncodingExceptions, EncodingHTTPExceptions, FileExtensionExceptions, \
+from src.exceptions.exceptions import EncodingExceptions, EncodingHTTPExceptions, FileExtensionExceptions, \
     FileExtensionHTTPExceptions
 
 

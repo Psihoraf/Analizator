@@ -2,7 +2,7 @@ from fastapi import UploadFile
 import asyncio
 import chardet
 
-from src.Exceptions.exceptions import EncodingExceptions
+from src.exceptions.exceptions import EncodingExceptions
 
 
 class FileReader:
